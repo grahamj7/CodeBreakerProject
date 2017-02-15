@@ -100,8 +100,8 @@ function showAnswer(param) {
 }
 
 function showReplay() {
-    guess = document.getElementById('guessing-div');
-    guess.style.display = "none";
+    guess_div = document.getElementById('guessing-div');
+    guess_div.style.display = "none";
     replay = document.getElementById('replay-div');
     replay.style.display = "block";
 }
